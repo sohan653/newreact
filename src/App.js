@@ -5,6 +5,7 @@ import Menubar from './Menubar/Menubar';
 import Test from './Test/Test';
 import Allproduct from './Allproduct/Allproduct';
 import { useState } from 'react';
+import Fakedata from './Fakedata/Fakedata';
 
 
 
@@ -18,6 +19,7 @@ function App() {
     <div className="App">
      <Menubar count={count}></Menubar>
      <Allproduct cart={addCart}></Allproduct>
+     <Fakedata></Fakedata>
 
     </div>
   );
